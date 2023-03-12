@@ -1,4 +1,4 @@
-![Design and Development](https://github.com/CEJJStudios/CEJJStudios/blob/main/CEJJV1BANNER2.gif)
+![Design and Development](https://github.com/CEJJStudios/CEJJStudios/blob/main/CEJJV1_BANNER.gif)
 
 ### ➤ O que é "O Gestor Louco - O Jogo"?
 
