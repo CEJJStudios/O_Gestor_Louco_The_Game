@@ -1,4 +1,4 @@
-![Design and Development](https://github.com/CEJJStudios/O_Gestor_Louco_The_Game/blob/main/Personagens/228915531-2480ffa3-a10b-4283-841b-ad53c83b2234.png)
+
 ![Design and Development](https://user-images.githubusercontent.com/90199276/228915531-2480ffa3-a10b-4283-841b-ad53c83b2234.png)
 ## :wrench: Tecnologias utilizadas
 * HTML,CSS E JS;
