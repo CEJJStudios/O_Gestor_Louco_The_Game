@@ -12,6 +12,10 @@
 ## Telas com Firebase
 
 ## telas demo
+ 
+ Primeira versão das telas baseadas no Figma.
+ 
+ * design básico
 
 
 ###
