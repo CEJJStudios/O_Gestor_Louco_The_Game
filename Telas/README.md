@@ -1,4 +1,4 @@
-###Pastas
+### Pastas
 . .
 
 - [Login Funcional](#Login-funcional)
@@ -7,7 +7,7 @@
 
 - [telas demo](#telas-demo)
 
-##Login funcional
+## Login funcional
 
 ## Telas com Firebase
 
