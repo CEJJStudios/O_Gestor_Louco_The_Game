@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha Página</title>
+	<style>
+		body {
+			background-image: url("./Background/FundoClareado.png");
+			position: relative;
+			min-height: 100vh;
+            zoom: 90%;
+			
+		}
+
+		nav {
+			background-color: #00003C;
+			display: flex;
+			align-items: center;
+			padding: 10px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
+
+		nav img {
+			height: 80px;
+			margin-right: 40px;
+		}
+
+		nav a {
+			color: white;
+			text-decoration: none;
+			margin-right: 30px;
+			font-size: 20px;
+		}
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 10px;
+}
+.custom-btn {
+  width: 180px;
+  height: 90px;
+  color: rgb(255, 255, 255);
+  border-radius: 9px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif,  center;
+  font-weight: 700;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}		
+/* 12 */
+.btn-12{
+  position: absolute;
+  top: 88%;
+   left: 100%;
+    transform:translate(-50%, -50%);
+  right: 20px;
+  bottom: 20px;
+  border:none;
+  box-shadow: none;
+  width: 180px;
+  height: 60px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12 span {
+  background: rgb(0,172,238);
+  background: linear-gradient(0deg, #00003c71 0%, #4D3C90 100%);
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  border-radius: 5px;
+  margin:0 ;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			position: absolute;
+			bottom: 30px;
+			right: 10px;
+		}
+
+		.circle {
+			width: 220px;
+			height: 150px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+			border-radius: 4%;
+			background-color: white;
+			margin-top: 2px;
+			margin-right: 220px;
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			box-shadow: 20px 20px 20px rgba(36, 19, 19, 0.582);
+		}
+
+		.circle:hover {
+			background-color: lightgray;
+		}
+
+		.circle:nth-of-type(1) {
+			background-color: #00003C;
+		}
+
+		.circle:nth-of-type(2) {
+			background-color: #4D3C90;
+		}
+
+		.circle:nth-of-type(3) {
+			background-color: #00003C;
+		}
+
+		.circle:nth-of-type(4) {
+			background-color: #4D3C90;
+		}
+
+		.rectangle {
+			position: absolute;
+			bottom: 30px;
+            margin-bottom: 40px;
+			margin-right: 40px;
+            margin-left: 20px;
+            border-radius: 20px;
+			left: 0;
+			width: 1500px;
+			height: 650px;
+
+		}
+		#logineregistro{
+			margin-left: 80%;
+			border: 1px solid #935FA1;
+        	padding: 20px;
+			background-color: #935FA1;
+			border-radius: 20px;
+		}
+		#mais{
+			border: 1px solid #935FA1;
+        	padding: 20px;
+			background-color: #935FA1;
+			border-radius: 20px;
+			box-shadow: 90px;
+		}
+		#imgimg{
+			margin-left:180px;
+			border-radius: 10px;
+			margin-right: 40px;
+		}
+		#botao1{
+			margin-left:1400px;
+			margin-bottom: 160px;
+		}
+		#play1{
+			justify-content: flex;
+			position: absolute;
+			margin-left: 1800px;
+		background-color: red;
+		margin-top: 300px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+
+		<img src="./Logo/CEJJ_LOGO_TESTE_BRANCA.png" alt="Logo">
+    
+		<div id="logineregistro">
+		<a href="login.html">Login</a>
+		<a href="./pages/register/register.html">Registro</a>
+	</div>
+		
+	</nav>
+
+
+
+	<div class="container">
+		<div class="circle">
+			<img src="./Personagens/jota.png" alt="" >
+		</div>
+		<div class="circle">
+			<img src="./Personagens/lara.png" alt="" >
+		</div>
+		<div class="circle">
+			<img src="./Personagens/dino.png" alt="" >
+		</div>
+		<div class="circle">
+			<img src="./Personagens/yume.png" alt="" >
+		</div>
+	</div>
+	<div class="rectangle">
+		<div id="imgimg">
+			
+		<img src="./Background/retangulo.jpeg" alt="rectangle" >
+		<a href= "menu.html"><button class="custom-btn btn-12"><span>PLAY!</span><span>JOGAR</span></button></a>
+			 
+	</div>
+		
+</div>
+	
+	</div>
+</body>
+</html>
