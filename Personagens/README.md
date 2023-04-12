@@ -7,5 +7,5 @@
 
 ![Design and Development](https://github.com/CEJJStudios/O_Gestor_Louco_The_Game/blob/main/Personagens/Game%20Over.png)
 
-Jota: A ideia para a animação de game over desse personagem foi representá-lo de maneira como geralmente são representados em outros jogos, na sua animação ele simplesmente cai em direção ao chão e colapsa desaparecendo lentamente.
+Jota (garoto de azul): A ideia para a animação de game over desse personagem foi representá-lo de maneira como geralmente são representados em outros jogos, na sua animação ele simplesmente cai em direção ao chão e colapsa desaparecendo lentamente.
 
