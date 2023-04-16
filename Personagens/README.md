@@ -1,7 +1,8 @@
 
 ### ➤ Personagens Que Estão no Jogo (Antagonista, Protagonistas e Bots) [V2]:
-
+<p  align="center">
 ![Design and Development](https://github.com/CEJJStudios/O_Gestor_Louco_The_Game/blob/main/Personagens/BANNER%20PERSONAGENS.png)
+</p>
 
 ➥ Gestor Louco (Robô): Gestor Louco, idade desconhecida. Dono do mundo cibernético que o personagem está inserido, o robô é um personagem perverso, que entende tudo sobre informática. Quem cai nesse mundo será automaticamente desafiado. Assim, disposto a testar os conhecimentos do(a) jogador(a) que almeja entrar uma instituição renomada, ele fará desses desejos uma forma de explorar e desafiar o personagem, evitando que o mesmo consiga conquistar os seus objetivos. Porém apesar de ser perverso, se o(a) jogador(a) conseguir vencê-lo, o mesmo irá dar o que o(a) vencedor(a) deseja.<br>
 ➥ Jota (Garoto de Azul): Jota, 14 anos, hétero. Rapaz esforçado, que sempre se destacou nos estudos. É um ano adiantado na sua escola por causa disso. Não é uma pessoa rica, mas sabe aproveitar o que tem para se sobressair e melhorar tanto a sua vida como a de seus pais, que tanto o amam e o ajudam. Está estudando para entrar um curso técnico em Informática na cidade que mora. Pretende fazer Análise e Desenvolvimento de Software no futuro.<br>
