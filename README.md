@@ -4,7 +4,7 @@
 
 ---
 
-O jogo interativo terá como narrativa principal a aventura de um ex-aluno do Ensino Médio desesperado para ingressar no mercado de trabalho. De cara, foi a uma entrevista para uma empresa muito renomada. Mal sabia ele o que lhe esperava nessa jornada para conseguir a sua vaga.
+Existe uma instituição muito boa e renomada que tem fama de garantir o futuro dos estudantes, “você já sai daqui empregado e com muito conhecimento”. Um pai quer muito que seu(ua) filho(a) consiga uma vaga lá dentro, pois quando era mais novo não conseguiu realizar e agora quer realizar o sonho por ele(a). Então, para dar esse orgulho ao pai, o(a) mesmo(a) buscará entrar no curso de informática, para garantir que esse sonho seja realizado. Para seja possível conseguir obter esse sucesso, o personagem começa a estudar a fundo os conteúdos e imerge nos conceitos da informática, e quando menos percebe, acaba acaba dormindo sobre os livros e virando um boneco de pixels que é desafiado pelo Gestor Louco, dono daquele mundo cibernético. O desafio é: se ele(a) passar os níveis e aprender os conceitos para alcançar a vaga tão desejada, ele ganhará a sua vaga na instituição. Porém, mau sabia que ele(a), que o Gestor Louco faria de tudo para que ele não consiga o que tanto o personagem almeja.
 
 ---
 
