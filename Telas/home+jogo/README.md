@@ -5,7 +5,7 @@ tela de home já com o link do jogo.
 * <b>menu de escolha</b>: escolher o personagem que voce quer usar no jogo
 * <b>volta ao início do jogo</b>: pressionando a tecla enter ,voce volta ao início do jogo
 
-* parte que faz o personagem voltar para o início do jogo.
+ parte que faz o personagem voltar para o início do jogo.
 
 ```html
 document.addEventListener("keydown", function(event) {
@@ -16,7 +16,7 @@ document.addEventListener("keydown", function(event) {
 ```
 
 * <b>morte do personagem</b>: quando voce cai fora da plataforma voce morre.
-* 
+
 ## :wrench: Tecnologias utilizadas
 <div align="center">
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
