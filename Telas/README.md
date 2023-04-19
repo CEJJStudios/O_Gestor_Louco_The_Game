@@ -7,7 +7,7 @@
 
 - [telas demo](#telas-demo)
 
-- [home+jogo](#home+jogo)
+- [home+jogo](#home-com-o-jogo)
 
 ## Login funcional
 
