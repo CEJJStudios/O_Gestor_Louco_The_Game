@@ -34,4 +34,14 @@
     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
 </div>
 
+* parte que faz o personagem voltar para o início do jogo.
+
+```html
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    location.reload();
+  }
+});
+```
+
 ###
