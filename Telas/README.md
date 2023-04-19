@@ -7,6 +7,8 @@
 
 - [telas demo](#telas-demo)
 
+- [home+jogo](#home+jogo)
+
 ## Login funcional
 
 ## Telas com Firebase
@@ -20,6 +22,8 @@
  Primeira versão das telas baseadas no Figma.
  
  * design básico
+ 
+ ## Home com o jogo
 
 
 ###
