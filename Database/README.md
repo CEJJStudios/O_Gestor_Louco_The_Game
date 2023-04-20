@@ -1,11 +1,11 @@
-### ➤ modelagem Utilizada:
+### ➤ Mdelagem Utilizada:
 
-➥Relacional
+➥ Relacional.
 ---
 
 ### ➤ Banco de Dados Utilizado: 
 
-➥Firebase
+➥ Firebase.
 ---
 
 ### ➤ Ferramentas Utilizadas:
