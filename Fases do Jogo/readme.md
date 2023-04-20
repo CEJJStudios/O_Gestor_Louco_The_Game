@@ -1,4 +1,4 @@
-### Pasta com as fases do jogo
+### Pasta com as Fases do Jogo
 
 ## Fase 1 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=DEMO&color=0000ff&style=for-the-badge)
