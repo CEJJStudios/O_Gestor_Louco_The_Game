@@ -1,4 +1,4 @@
-### ➤ Diretórios: 
+<!---### ➤ Diretórios: 
 
 [➥ Login Funcional](#Login-funcional)
 
@@ -9,6 +9,7 @@
 [➥ Home+Jogo](#home-com-o-jogo)
 
 ---
+--->
 
 ## Telas Demo & Login Funcional com Firebase & ACesso ao Jogo (Fase 1): 
 
