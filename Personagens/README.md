@@ -1,4 +1,3 @@
-
 ### ➤ Quem São Os Personagens de "O Gestor Louco - O Jogo"?
 <p  align="center">
 <img src=https://github.com/CEJJStudios/O_Gestor_Louco_The_Game/blob/main/Personagens/BANNER%20PERSONAGENS.png>
@@ -36,6 +35,27 @@
   </tr>
 </table>
 
+----
+
+<p  align="center">
+<img src= "https://github.com/CEJJStudios/O_Gestor_Louco_The_Game/blob/ca3d2694ea7d44588d80408d5eb315df94aed57f/Personagens/Sprites%20de%20movimento%20gerais.png" style="width: 1000px; height: 800px;">
+</p>
+
+<table>
+  <tr>
+    <th>Sprites - Personagens</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td>Sprites de Movimento</td>
+    <td style="text-align: justify;">Nessa aba, podemos observar que a imagem demonstra os movimentos dos personagens durante o jogo, seja andando ou pulando.</td>
+  </tr>
+    <tr>
+    <td>Sprites - Fase 2</td>
+    <td style="text-align: justify;">A Fase 2 será uma corrida. Em um mundo cibernético não se pode faltar carros voadores, não é? Assim, cada jogador possui seu kart de acordo com sua cor característica. As duas sprints de cada personagem simulam, quando juntas, os propulsores ligado.</td>
+  </tr>
+
+</table>
 
 ----
 
@@ -65,7 +85,3 @@
     <td style="text-align: justify;">Uma referência vinda diretamente de outro jogo, chamado Undertale criado por Toby Fox, a morte ocorre exatamente da mesma forma, o coração representa a alma do personagem, originalmente se despedaça e se estilhaça em pedaços menores, no nosso jogo, apenas se divide em dois.</td>
   </tr>
 </table>
-
-![Sprites de Movimento Gerais](https://github.com/CEJJStudios/O_Gestor_Louco_The_Game/blob/ca3d2694ea7d44588d80408d5eb315df94aed57f/Personagens/Sprites%20de%20movimento%20gerais.png)
-
-Sprites de movimento de andar, pular e do kart
