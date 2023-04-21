@@ -65,3 +65,7 @@
     <td style="text-align: justify;">Uma referência vinda diretamente de outro jogo, chamado Undertale criado por Toby Fox, a morte ocorre exatamente da mesma forma, o coração representa a alma do personagem, originalmente se despedaça e se estilhaça em pedaços menores, no nosso jogo, apenas se divide em dois.</td>
   </tr>
 </table>
+
+![Sprites de Movimento Gerais](https://github.com/CEJJStudios/O_Gestor_Louco_The_Game/blob/ca3d2694ea7d44588d80408d5eb315df94aed57f/Personagens/Sprites%20de%20movimento%20gerais.png)
+
+Sprites de movimento de andar, pular e do kart
