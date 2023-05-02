@@ -1,4 +1,4 @@
-### FASE 1
+### FASE 2
 
 A fase 2 consiste em o jogador desviar dos inimigos que ficam se movimentando em sua direção, desviar também dos drones na parte de cima, não cair nos buracos e ir pegando os chips e cruzar a linha de chegada para conseguir ir para a fase 3
 
