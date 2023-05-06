@@ -48,7 +48,7 @@ Existe uma instituição muito boa e renomada que tem fama de garantir o futuro 
 &nbsp; 
 <img src="https://img.shields.io/badge/trello-0078D6?style=for-the-badge&logo=trello&logoColor=white" height="25">
 &nbsp; 
-<img src="https://img.shields.io/badge/kaboomjs-0078D6?style=for-the-badge&logo=kaboomjs&logoColor=white" height="25">
+<img src="https://img.shields.io/badge/kaboom.js-0078D6?style=for-the-badge&logo=kaboom.js&logoColor=white" height="25">
 
 
 
