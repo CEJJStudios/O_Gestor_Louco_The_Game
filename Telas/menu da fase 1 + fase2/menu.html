@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('./Background/FundoClareado.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+#imgimg{
+    position: absolute;
+    align-items: center;
+    bottom: 30px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    left: 0;
+    width: 1800px;
+    height: 650px;
+
+    margin-left:300px;
+    border-radius: 60px;
+ 
+}
+
+.container {
+    display: flex;
+    flex-direction: inline;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 250px;
+    right: 700px;
+
+            
+		}
+.texto {
+    position: absolute;
+    margin-top: 400px;
+    margin-bottom: 56px;
+    color: #fff;
+    margin-bottom: 300px;
+    margin-right: 60px;
+    margin-left: 800px;
+}
+.circle {
+    
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+    border-radius: 4%;
+    margin-top: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #2f2020;} 
+.button2 {background-color: #88580a;} 
+.button3 {background-color: #17cc11;} 
+.button4 {background-color: #eb00df;} 
+
+.container td {
+    border: 7px solid transparent;
+    background-clip: padding-box;
+}
+</style>
+</head>
+<body>
+
+    <audio autoplay loop>
+		<source src="tatoo.mp3" type="audio/mpeg">
+	  </audio>
+      
+<div id="imgimg"> 
+			
+	<img src="./Background/bordaMenu.png" alt="rectangle" >
+    <h1>Escolha um avatar:</h1>
+    
+</div>
+
+<div class="texto">  
+
+ <h1>Escolha um avatar:</h1>
+ 
+</div>
+
+<div class="container">
+    
+    <table class="circle">
+        <tr>
+            <td><a href="./jotaGame/fase1.html"><button class="button button1">Jota</button></a></td>
+            <td><a href="./laraGame/fase1.html"><button class="button button2">lara</button></a></td>
+            <td><a href="./solGame/fase1.html"><button class="button button3">Sol</button></a></td>
+            <td><a href="./YumeGame/fase1.html"><button class="button button4">Yume</button></a></td>
+        </tr>
+        <tr>
+            <td><img src="./Personagens/jota.png" alt="" ></td>
+            <td><img src="./Personagens/lara.png" alt="" ></td>
+            <td><img src="./Personagens/dino.png" alt="" ></td>
+            <td><img src="./Personagens/yume.png" alt="" ></td>
+        </tr>
+    </table>
+    
+</div>
+
+		
+</body>
+</html>
+
