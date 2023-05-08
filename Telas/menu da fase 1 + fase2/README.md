@@ -1,4 +1,4 @@
-![home](https://user-images.githubusercontent.com/90199276/230167351-c846de7c-5036-437f-a047-6021d1fcdbf6.png)
+![solkart](https://user-images.githubusercontent.com/90199276/236898117-d4c19c4c-d5a5-495b-b31f-916831cf1667.png)
 
 
 ## :dart: Status do Projeto:
@@ -11,8 +11,10 @@
   - [x] Senha
   - [x] odem Recuperar a Senha
      - pelo Firebase
+  - [x] escolher um personagem para jogar
+  - [x] ir da fase 1 parea fase 2
 
 
 ## :soon: Implementação Futura:
-➥ Atualização dos Botões.
+➥ conectar a fase 3
 
