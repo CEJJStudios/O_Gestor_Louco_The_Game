@@ -7,6 +7,9 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=DEMO&color=0000ff&style=for-the-badge)
 
 ## Fase 3
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=DEMO&color=0000ff&style=for-the-badge)
+
+## Fase 4
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=ffa500&style=for-the-badge)
 
 <!---
