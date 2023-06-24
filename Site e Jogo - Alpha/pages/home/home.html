@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Escolha o Jogador!</title>
+
+      <!-- site favicon -->
+      <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="16x16">
+      <!--Icons--->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <button type="button" class="clear" onclick="logout()">
+      Sair
+    </button>
+    <!-- inicio do container main principal onde todos os elementos estão 
+    agrupados -->
+    <main>
+      <!-- cabeçalho -->
+      <header class="cabecalho">
+        <h1 class="titulo">Escolha um Jogador</h1>
+      </header>
+      <!-- fim do cabeçalho -->
+
+      <!-- container onde todos os itens estão agrupados -->
+      <div class="selecaoDePersonagem">
+        <!-- personagem grande player 1  e personagem selecionado grande-->
+        <div class="personagemJogador1 personagemGrande">
+          <!-- imagem grande do jogador selecionado -->
+          <img
+            src="./src/img/Sol.png"
+            alt="personagem selecionado jogador 1"
+            id="personagemJogador1"
+          />
+          <!-- fim da imagem grande -->
+
+          <!-- container com o nome do personagem selecionado em baixo -->
+          <div class="nome">
+            <h3>Sol</h3>
+          </div>
+        </div>
+        <!-- fim da classe personagemJogador1 e personagemGrande -->
+
+        <!-- inicio do container com  a lista de personagem a ser escolhido no centro -->
+        <ul class="listaDePersonagem">
+          <!-- classe  personagem e personagem selecionado -->
+          <a href="/solGame/fase1/index.html" class="personagem selecionado" id="sol" data-name="sol">
+            <!-- classe tag com o player 1 ou 2 -->
+            <span class="tag"></span>
+            <img src="./src/img/Sol.png" alt="Personagem sol" />
+          </a>
+
+          <a href="/yumiGame/fase1/index.html" class="personagem" id="yumi" data-name="yumi"> 
+            <span class="tag"></span>
+            <img
+              src="./src/img/yumi.png"
+              alt="Personagem Yumi"
+            />
+          </a>
+          <a href="/jotaGame/fase1/index.html"
+            class="personagem"
+            id="Jota"
+            data-name="Jota"
+          >
+            <span class="tag"></span>
+            <img
+              src="./src/img/Jota.png"
+              alt="Personagem Jota"
+            />
+        </a>
+
+        <a href="/laraGame/fase1/index.html"
+        class="personagem"
+        id="Lara"
+        data-name="Lara"
+      >
+        <span class="tag"></span>
+        <img
+          src="./src/img/Lara.png"
+          alt="Personagem Jota"
+        />
+    </a>
+
+        </ul>]
+    
+      </div>
+      
+
+      <!-- fim da main -->
+    </main>
+
+
+  </body>
+
+  <script src="./src/js/index.js"></script>
+
+</html>
