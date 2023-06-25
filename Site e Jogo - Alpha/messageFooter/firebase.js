@@ -9,42 +9,37 @@ const firebaseConfig = {
     appId: "1:714483640795:web:699227f4d767fa93d29ffe"
 
 };
-
 // initialize firebase
 firebase.initializeApp(firebaseConfig);
 
 // reference your database
-var contactFormDB = firebase.database().ref("contact_form_submit");
+var contactFormDB = firebase.database().ref("message-text");
 
-document.getElementById("contact_form_submit").addEventListener("submit", submitForm);
+document.getElementById("message-text").addEventListener("submit", submitForm);
 
 function submitForm(e) {
   e.preventDefault();
 
-  var name = getElementVal("name");
-  var email= getElementVal("email");
   var message = getElementVal("message");
 
-  saveMessages(name, email, message);
+  saveMessages(message);
 
-  //   enable alert
-  document.querySelector("#alert_message").style.display = "block";
+  // enable alert
+  document.querySelector(".alert").style.display = "block";
 
-  //   remove the alert
+  // remove the alert
   setTimeout(() => {
-    document.querySelector("#alert_message").style.display = "none";
+    document.querySelector(".alert").style.display = "none";
   }, 3000);
 
-  //   reset the form
-  document.getElementById("contact_form_submit").reset();
+  // reset the form
+  document.getElementById("message-text").reset();
 }
 
-const saveMessages = (name, email, message) => {
+const saveMessages = (message) => {
   var newContactForm = contactFormDB.push();
 
   newContactForm.set({
-    name: name,
-    email: email,
     message: message,
   });
 };

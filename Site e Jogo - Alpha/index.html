@@ -164,7 +164,7 @@
                 Com a maldade em seus circuitos, ele fará da sua ambição como uma forma de explorá-lo e desafiá-lo,
                 evitando que consiga conquistar os seus objetivos. Porém, apesar de ser perverso, se conseguir vencê-lo, 
                 o mesmo dará o que tanto deseja: a vaga na Instituição. A questão é: Você será capaz de derrotá-lo?</p>
-              <a href="about.html" class="cmn-btn mt-5">Saiba Mais</a>
+              <a href="/sobrejogo/descJogo.html" class="cmn-btn mt-5">Saiba Mais</a>
             </div>
           </div>
           <div class="col-lg-4 mt-lg-0 mt-4">
@@ -184,7 +184,7 @@
         <div class="row">
           <div class="col-lg-12">
             <!----->
-            <div class="subscribe-area">
+            <div class="subscribe-area" id="message-text">
               <div class="obj"><img src="assets/images/elements/subscribe.png" alt="image"></div>
               <div class="subscribe-content">
                 <h2 class="title">O Que Achou do Jogo?</h2>
@@ -193,10 +193,13 @@
                 </p>
                 <p></p>
                 <form class="subscribe-form">
-                  <input type="email" name="subscribe_email" id="subscribe_email" placeholder="Digite sua Mensagem...">
-                  <button type="submit">Enviar</button>
+                  <input type="message" name="message" id="message" placeholder="Digite sua Mensagem...">
+                  <button type="submit" class="submit-btn">Enviar</button>
                 </form>
+                <div class="alert">Mensagem Enviada com Sucesso!</div>
               </div>
+
+              
             </div>
           </div>
         </div>
@@ -248,10 +251,10 @@
         </li>
       </ul>
       <ul class="menu">
-        <li class="menu__item"><a class="menu__link" href="#">Início</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Sobre o Jogo</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Equipe</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Relatar Bug</a></li>
+        <li class="menu__item"><a class="menu__link" href="index.html">Início</a></li>
+        <li class="menu__item"><a class="menu__link" href="sobrejogo/descJogo.html">Sobre o Jogo</a></li>
+        <li class="menu__item"><a class="menu__link" href="equipe/about.html">Equipe</a></li>
+        <li class="menu__item"><a class="menu__link" href="contato/contact.html">Relatar Bug</a></li>
       </ul>
       <p>&copy;2023 CEJJ Studios | Todos os
       Direitos Reservados</p>
@@ -273,7 +276,6 @@
   <script src="assets/js/vendor/slick.min.js"></script>
   <script src="assets/js/vendor/TweenMax.min.js"></script>
   <!-- contact js -->
-  <script src="assets/js/contact.js"></script>
 
   <script src="assets/js/vendor/jquery.paroller.min.js"></script>
 
@@ -292,13 +294,16 @@
   <!-- slick slider js -->
   <script src="assets/js/vendor/slick.min.js"></script>
   <script src="assets/js/vendor/TweenMax.min.js"></script>
-  <!-- contact js -->
-  <script src="assets/js/contact.js"></script>
+
 
   <script src="assets/js/vendor/jquery.paroller.min.js"></script>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="/messageFooter/firebase.js"></script>
+
+
 </body>
 
 
