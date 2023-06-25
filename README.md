@@ -27,7 +27,7 @@ Existe uma instituição muito boa e renomada que tem fama de garantir o futuro 
   <p  align="center">
 
   
-<img src="https://img.shields.io/badge/react-00000F?style=for-the-badge&logo=reacte&logoColor=white" height="25"/>
+<img src="https://img.shields.io/badge/boostrap-00000F?style=for-the-badge&logo=boostrap&logoColor=white" height="25"/>
   &nbsp;
 <img src="https://img.shields.io/badge/Firebase-00000F?style=for-the-badge&logo=firebase&logoColor=white" height="25"/>
   &nbsp;
