@@ -1,0 +1,9 @@
+.botaosair {
+    /* Adicione estilos personalizados ao botão aqui */
+    /* Por exemplo, defina a cor de fundo e a cor do texto */
+    background-color: #eaeaea;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }

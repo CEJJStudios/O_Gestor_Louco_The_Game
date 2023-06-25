@@ -1,3 +1,15 @@
+.botaosair {
+  background-color: #eaeaea;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
 body {
   font-family: "fontTitulo", Courier, monospace;
   background: var(--cor-secundaria);
@@ -126,7 +138,7 @@ main {
 }
 
 .selecaoDePersonagem .listaDePersonagem .personagem.jogador2selecionado {
-  border: px solid 2px var(--cor-vermelha-fraca);
+  border: 2px solid var(--cor-vermelha-fraca);
   animation: c-glowing-red 0.3s ease-in-out infinite;
   animation-direction: alternate;
 }
@@ -138,7 +150,7 @@ main {
   position: absolute;
   top: 5px;
   left: 5px;
-  transition: opacity 0.3 ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   animation: text-glowing-blue 0.3s ease-in-out infinite;
   animation-direction: alternate;
 }
