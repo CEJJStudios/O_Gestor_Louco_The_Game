@@ -1,0 +1,1 @@
+Site Final com Login Funcional e Forms Funcional, integrados ao firebase. Além disso, nosso site também está hospedado plataforma citada (ogestorlouco.web.app). Para finalizar, nossos jogos estão funcionais, com som, e com sprites atualizadas. 
