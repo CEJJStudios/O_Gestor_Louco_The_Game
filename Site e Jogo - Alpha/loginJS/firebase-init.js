@@ -1,3 +1,4 @@
+//firebase init
 const firebaseConfig = {
   apiKey: "AIzaSyCDvec2d1ZyStFrho4EPkFmFeeqkQaBSWY",
   authDomain: "ogestorlouco.firebaseapp.com",
